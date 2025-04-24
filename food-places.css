@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* List Styles */
+.food-places-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.food-places-list li {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  transition: box-shadow 0.3s ease;
+}
+
+/* New Background Color for List Items */
+.food-places-list li {
+  background-color: #f0f8ff;
+}
+
+.food-places-list li:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles for Restaurants */
+.food-places-list h2 {
+  color: #007bff;
+  margin: 0 0 10px;
+}
+
+/* Paragraph Styles */
+.food-places-list p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Link Styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Back to Sign In Link */
+a[href="food-places.html"] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Additional Styles for the Back Link */
+a[href="food-places.html"]:hover {
+  color: #0056b3;
+}
